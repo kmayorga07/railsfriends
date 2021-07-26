@@ -1,0 +1,10 @@
+class HomeController < ApplicationController
+  def index
+  end
+
+  def about
+  	@about_me = "My name is K, this is a little about me."
+  	@answer = 2 + 2
+  end
+  
+end
